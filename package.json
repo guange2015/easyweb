@@ -1,0 +1,21 @@
+{
+  "name": "easyweb",
+  "version": "0.0.3",
+  "description": "codekit of command line.",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "~0.9.13",
+    "connect": "~2.7.2"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "bin": {
+    "easyweb": "node app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hhuai",
+  "license": "BSD"
+}

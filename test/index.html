@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>live reload</title>
+  <script src="/live.js"></script>
+  <script>
+
+    document.addEventListener('change', function (e) { 
+      console.log(e.detail);
+      // http://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery
+      // instead of window.location.reload(); Some of the browsers like Firefox opens ConfirmBox for resend.If you reload after post request.
+      window.location = window.location.pathname;
+    }, false);
+
+  </script>
+
+</head>
+<body>
+  <h1>Live reload test page 6.</h1>
+</body>
+</html>
